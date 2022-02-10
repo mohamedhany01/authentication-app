@@ -1,4 +1,4 @@
-# Authentication App
+# Authentication App [Live Demo](https://authentication-app-frontend.netlify.app)
 
 An simple JWT authentication web application. Developed using React JS as a front-end library for the UI, and Python 3/Flask 2.0 as back-end API server.
 
