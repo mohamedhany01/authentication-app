@@ -1,0 +1,64 @@
+@use "../abstracts";
+
+.register-header {
+  text-align: center;
+}
+
+.register-title {
+  text-align: center;
+  margin: 1.5rem 0rem 0.1rem;
+  font-size: 2rem;
+  font-weight: 700;
+
+  .page-name {
+    font-size: 0.7em;
+    margin-top: 0.4em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid abstracts.$tertiary;
+  }
+}
+
+.inputs-container {
+  margin: 1.5rem 0rem;
+
+  .input-row {
+    margin-top: 1rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.4em;
+    }
+    input {
+      padding: 0.7em;
+      width: 100%;
+      margin-bottom: 0.5em;
+      border: 1px solid abstracts.$secondary;
+      outline: 2px transparent abstracts.$tertiary;
+      transition-property: outline, border;
+      transition-duration: 0.1s;
+      transition-timing-function: ease-in;
+      border-radius: 0.2rem;
+
+      &:focus-visible {
+        outline: 2px solid abstracts.$tertiary;
+        border: 1px transparent abstracts.$secondary;
+      }
+    }
+  }
+}
+
+button {
+  &[type="submit"] {
+    width: 100%;
+    padding: 1.2rem;
+  }
+}
+
+hr {
+  margin: 1.5rem 0rem;
+  opacity: 0.2;
+}
+
+.login-hint {
+  text-align: center;
+}

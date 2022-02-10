@@ -1,0 +1,13 @@
+@use "../abstracts";
+
+.not-found {
+  text-align: center;
+  h1 {
+    margin-bottom: 2rem;
+    color: abstracts.$tertiary;
+  }
+
+  img{
+      max-width: 100%;
+  }
+}

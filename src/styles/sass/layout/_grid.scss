@@ -1,0 +1,13 @@
+@use "../abstracts";
+
+.wrapper {
+  min-width: 80%;
+  padding: 0rem 1rem;
+  margin: 0 auto;
+}
+
+.shadow-effect-container {
+  border-radius: 0.4rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 7px -3px abstracts.$secondary;
+}

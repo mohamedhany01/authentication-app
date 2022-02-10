@@ -1,0 +1,79 @@
+@use "../abstracts";
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.fw-regular {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.primary-color {
+  color: abstracts.$primary;
+}
+
+.secondary-color {
+  color: abstracts.$secondary;
+}
+
+.tertiary-color {
+  color: abstracts.$tertiary;
+}
+
+.error-color {
+  color: abstracts.$error;
+}
+
+.success-color {
+  color: abstracts.$success;
+}
+
+.bg-primary {
+  background-color: abstracts.$primary;
+}
+
+.bg-secondary {
+  background-color: abstracts.$secondary;
+}
+
+.bg-tertiary {
+  background-color: abstracts.$tertiary;
+}
+
+.bg-error {
+  background-color: abstracts.$error;
+}
+
+.bg-success {
+  background-color: abstracts.$success;
+}
+
+.responsive-text {
+  font-size: calc(10px + 1.5vh) !important;
+}
+

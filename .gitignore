@@ -1,0 +1,6 @@
+# Cache
+dist
+node_modules
+
+# Env files
+.env

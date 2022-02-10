@@ -1,0 +1,5 @@
+@use "./variables";
+
+.bg-tertiary {
+  background-color: variables.$tertiary;
+}

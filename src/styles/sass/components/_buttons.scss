@@ -1,0 +1,22 @@
+@use "../abstracts";
+
+.app-button {
+  outline: none;
+  padding: 0.4rem;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.06rem;
+}
+
+.primary-button {
+  background-color: abstracts.$tertiary;
+  color: abstracts.$primary;
+  font-weight: 700;
+  box-shadow: 0px 0px 7px -3px abstracts.$secondary;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 0.4rem;
+
+  &:hover {
+    background-color: abstracts.$tertiaryBright;
+  }
+}

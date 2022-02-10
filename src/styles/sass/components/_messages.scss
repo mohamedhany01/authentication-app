@@ -1,0 +1,57 @@
+@use "../abstracts";
+
+.field-message {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  color: abstracts.$primary;
+  p {
+    margin: 0;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .icon {
+      margin-right: 0.3rem;
+    }
+  }
+
+  &.error {
+    background-color: abstracts.$error;
+  }
+
+  &.success {
+    background-color: abstracts.$success;
+  }
+}
+
+.api-message {
+  padding: 0rem;
+  border-radius: 0.3rem;
+  color: abstracts.$primary;
+  background-color: abstracts.$error;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 0rem;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  p {
+    margin: 0;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .icon {
+      margin-right: 0.3rem;
+    }
+  }
+
+  .icon {
+    margin-right: 0.3rem;
+  }
+
+  &.active {
+    max-height: 1rem;
+    padding: 1.5rem;
+  }
+}
