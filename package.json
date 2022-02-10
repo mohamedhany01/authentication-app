@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack serve --config ./webpack_config/webpack.dev.js",
-    "build": "webpack --config ./webpack_config/webpack.prod.js"
+    "build": "webpack --config ./webpack_config/webpack.prod.js && echo '/* /index.html 200' | cat > ./dist/'_redirects'"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
